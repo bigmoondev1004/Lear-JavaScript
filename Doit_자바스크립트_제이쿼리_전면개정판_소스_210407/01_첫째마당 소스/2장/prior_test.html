@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
 	<meta charset="UTF-8">
 	<title> 논리연산자 </title>
-<script>
-	var a = 10, 
-					b= 20, 
-					c = 0, 
-					d = "hello";
-	var result;
+	<script>
+		var a = 10;
+		var b = 20;
+		var m = 30;
+		var n = 40;
 
-</script>
+		var result;
+		result = a > b || b >= m || m > n;
+		document.write(result, "<br>");
+
+		result = a > b || b >= m || m <= n;
+		document.write(result, "<br>");
+
+		result = a <= b && b >= m && m <= n;
+		document.write(result, "<br>");
+
+		result = a <= b && b <= m && m <= n;
+		document.write(result, "<br>");
+
+		result = !(a > b);
+		document.write(result);
+
+	</script>
 </head>
+
 <body>
 </body>
+
 </html>

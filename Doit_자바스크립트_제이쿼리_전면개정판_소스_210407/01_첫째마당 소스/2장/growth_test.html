@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-<meta charset="UTF-8">
-<title> 증감 연산자 </title>
-<script>
-	var num1 = 10;
-	var num2 = 20;
-	var result;
-	 
-</script>
+	<meta charset="UTF-8">
+	<title> 증감 연산자 </title>
+	<script>
+		var num1 = 10;
+		var num2 = 20;
+		var result;
+
+		num1--;
+		document.write(num1, "<br>");	//9
+
+		num1++;
+		document.write(num1, "<br>");	//10
+
+		result = num2++;
+		document.write(result, "<br>");	//20
+
+		result = ++num2;
+		document.write(result);			//22
+		// ++ 가 앞에 있으면 더하고 저장
+		// ++ 가 뒤에 있으면 초기값 저장후 변수에 증가
+	</script>
 </head>
+
 <body>
 </body>
+
 </html>
