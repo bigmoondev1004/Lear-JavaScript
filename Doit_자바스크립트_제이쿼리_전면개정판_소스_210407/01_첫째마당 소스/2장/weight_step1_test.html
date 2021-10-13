@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-<meta charset="UTF-8">
-<title> 과체중 테스트 </title>
-<script>
-	var userHeight = 180; //신장
-	var userWeight = 74; //몸무게
 
-</script>
+<head>
+	<meta charset="UTF-8">
+	<title> 과체중 테스트 </title>
+	<script>
+		var userHeight = 180; //신장
+		var userWeight = 74; //몸무게
+
+		//평균 체중 = (신장 -100) X 0.9
+		var normal_W = (userHeight - 100) * 0.9;
+		document.write(normal_W)
+
+	</script>
 </head>
+
 <body>
 </body>
+
 </html>
